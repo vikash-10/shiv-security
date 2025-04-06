@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./pexels-felixmittermeier-956999.jpg);
+}
+.header{
+    display: flex;
+    background-color:  #021932 ;
+    height: 70px;
+    width: 100%;
+    color: white;
+}
+.logo{
+    display: flex;
+    
+}
+@keyframes logo{
+    form{
+    transform: rotate(0deg);
+    }
+    to{
+
+        transform: rotate(360deg);
+    }
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    animation: logo 2s ease-in-out infinite normal;
+}
+.list{
+    margin-left: 65%;
+}
+.list a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.list a:hover{
+    color: red;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+/* 1 */
+.container{
+    color: white;
+    margin-top: 12%;
+    padding: 30px;
+}
+.container h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+.container p{
+    text-align: left;
+    padding: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 20px;
+}
