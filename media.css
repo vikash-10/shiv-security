@@ -1,0 +1,124 @@
+@media only screen and (min-width:327px) and (max-width:920px) {
+
+.header{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    width: 15px;
+    height: 15px;
+}
+
+.logo h1{
+    font-size: 18px;
+}
+.list{
+    margin-left: 40px;
+
+}
+.list li{
+    gap: 18px;
+}
+.list a{
+    font-size: 10px;
+}
+
+/* page1 */
+.page1{
+    width: 100%;
+}
+.page1 h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.box{
+    height: 30%;
+    width: 34%;
+    margin-top: -300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#box1{
+    background-image: url(img3.jpg) ;
+    border-top:5px solid red;
+    border-bottom:5px solid red;
+}
+
+.bage2{
+    width: 100%;
+}
+.bage2 h1{
+    font-size: 14px;
+    margin-top: -250px;
+}
+.bage2 p{
+    font-size: 12px;
+}
+
+
+.page3 h1{
+    font-size: 14px;
+}
+
+.container2{
+    width: 100%;
+}
+.form{
+    width: 80px;
+}
+
+form h3{
+    font-size: 10px;
+    padding: 10px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+input{
+    font-size: 10px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.select-box{
+    font-size: 10px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 10px;
+}
+textarea{
+    font-size: 10px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius:10px ;
+}
+
+form button{
+    font-size: 10px;
+    width: 60px;
+    left: 5px;
+}
+.button{
+    margin-left: -10px;
+}
+
+.Author{
+    width: 550px;
+    height: 450px;
+    margin-top: 10px;
+}
+.Author h1{
+    font-size: 10px;
+}
+
+
+}

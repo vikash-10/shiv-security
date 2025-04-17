@@ -231,6 +231,11 @@ form button:active{
     height: 30px;
     background-color: #021932;
 }
+.foter H1{
+    font-size: 10PX;
+    color: white;
+    margin-top: 5px;
+}
 
 
 
